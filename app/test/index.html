@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jasmine Spec Runner</title>
     <link rel="stylesheet" href="../bower_components/jasmine/lib/jasmine-core/jasmine.css" />
+    <link rel="stylesheet" href="../styles/application.css">
 </head>
 <body>
     <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
@@ -16,6 +17,41 @@
     <script>
       jasmine.getFixtures().fixturesPath = 'spec/fixtures';
     </script>
+
+    <div class="l-container" style="display: none">
+      <h1><img src="../images/icon-description.png" alt="icon" /> Description</h1>
+      <div>
+        <p>
+          Das moderne Penthouse liegt in Zentrum von <b>Berlin</b> und überzeugt mit zwei Blkonen mit großartigem
+          Blick auf den historischen Teil der Stad. Die GÑaste Können kestenioses <b>WLAN</b> ud eine Waschmaschine
+          nutzen.
+        </p>
+
+        <p>
+          Das garäumige Schlafzimmer verfügt über ein bequemes Doppeitbett und Glastüren, die auf einen Balkon füren.
+          Im Wohnzimmer gibts es ein großes L-fömiges Schlafsofa und einen Flachbildschirm-TV. Die Küche ist voll ausgestattet
+          und die Gäste finden eine Eckbadewanne und eine Dusche im schicken Badezimmer.
+        </p>
+      </div>
+
+      <div class="separator">
+        <img src="../images/separator.png" alt="separator" />
+      </div>
+
+      <div id="more-information" class="hide">
+        <h2>House rules</h2>
+        <p>
+          Eine Kaution in Höke von 150 € fällt bei Check-in in bar an. Ein Gebühr in Höhe von 50 € fällt bei Schlüsselverlust an. Die Gäste sollten alles so sauber wie möglich halten.
+        </p>
+      </div>
+
+      <hr />
+
+      <div class="button-container">
+        <button id="show-more">Show more</button>
+      <div>
+
+    </div>
 
     <script src="../scripts/main.js"></script>
     <script src="spec/test.js"></script>
